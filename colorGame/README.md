@@ -11,4 +11,4 @@ While the game taught in the bootcamp works well, I have created some modificati
 - Single function to initiate the game, with buttons/HTML dropdown being assigned Javascript functions instead of adding event listeners.
 - "Loading" welcome text using setTimeout to add game feel.
 
-To play the game (view the page), visit [colorGame.html](./colorGame.html).
+To play the game (view the page), you can visit [colorGame.html](./colorGame.html).
