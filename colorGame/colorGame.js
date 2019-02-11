@@ -35,6 +35,7 @@ let targetColorRGB = "";
 function initGame() {
     document.querySelector("#header").style.backgroundColor = "";
     document.querySelector("#message").innerHTML = "Click your guess!";
+    document.querySelector("#reset").innerHTML = "New Colors";
     targetColorN = Math.floor(Math.random()*ncolors);
     let colors = genColor(ncolors);
     for (let i = 0; i<nsquares; i++) {
@@ -64,6 +65,7 @@ function clickHide() {
 function clickWinner() {
     document.querySelector("#message").innerHTML = "That's Right!";
     document.querySelector("#header").style.backgroundColor = domColorDisplay.innerHTML;
+    document.querySelector("#reset").innerHTML = "Play Again";
     for (let i = 0; i<nsquares; i++) {
         if (i<ncolors) {
             domSquares[i].removeEventListener("click", clickHide);
