@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>the Amazing Color Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+<body>
+
+<div id="header">
+    <h3 class="display">Color Game</h3>
+    <h1>Guess and Pick<br><span class="display" id="colorDisplay">the color</span></h1>
+</div>
+
+<div id="navi">
+    <div id="message">Welcome! &nbsp; Loading game..</div>
+    <div id="navicontainer">
+        <div id="reset" onclick="initGame()">New Colors</div>
+        <select id="Nsquares" onchange="handlerNcolors()">
+            <option value="3">3 Squares</option>
+            <option value="6" selected="true">6 Squares</option>
+        </select>
+        <select id="ColorSteps" onchange="handlerColorSteps()">
+                <option value="1">256 Color Levels</option>
+                <option value="4" selected="true">64 Color Levels</option>
+                <option value="16">16 Color Levels</option>
+                <option value="32">8 Color Levels</option>
+                <option value="64">4 Color Levels</option>
+                <option value="128">2 Color Levels</option>
+        </select>
+    </div>
+</div>
+
+<div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
