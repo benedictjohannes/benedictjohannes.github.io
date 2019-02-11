@@ -16,8 +16,9 @@
     <div id="navicontainer">
         <div id="reset" onclick="initGame()">New Colors</div>
         <select id="Nsquares" onchange="handlerNcolors()">
-            <option value="3">3 Squares</option>
-            <option value="6" selected="true">6 Squares</option>
+            <option value="3">3 Choices</option>
+            <option value="6" selected="true">6 Choices</option>
+            <option value="9">9 Choices</option>
         </select>
         <select id="ColorSteps" onchange="handlerColorSteps()">
                 <option value="1">256 Color Levels</option>
@@ -31,6 +32,9 @@
 </div>
 
 <div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
     <div class="square"></div>
     <div class="square"></div>
     <div class="square"></div>

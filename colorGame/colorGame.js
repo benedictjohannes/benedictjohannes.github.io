@@ -10,7 +10,7 @@ function genColor(number) {
     return result;
 }
 
-const nsquares=6;
+const nsquares=9;
 
 let ncolors=6;
 let domNcolors = document.querySelector("#Nsquares");
