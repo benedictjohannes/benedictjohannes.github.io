@@ -3,6 +3,7 @@
 This is just my personal code sharing space.
 
 Some viewable contents:
+- [Flexible PostgreSQL CSV inserter written in Go](https://pkg.go.dev/gitlab.com/benedictjohannes/csv2pg), with capability to insert into multiple table, use previous table's value to insert to other table, parsing date/time and using Go's templating system to modify strings before insertion. [source code](https://gitlab.com/benedictjohannes/csv2pg)
 - [Simple database migration using KnexJS](https://github.com/benedictjohannes/knex-migrate-raw-sql), is a collection of very simple funtion that enables *non*-developers to use database migration tool to track database structural changes.  
 Common database migration practice that is implemented in most SQL libraries including KnexJS necessitates writing `up` and `down` function in programming language code (Javascript for KnexJS, obviously).  
 This repo creates a wrapper that helps creating migration with `up.sql` and `down.sql` for each migration steps.
