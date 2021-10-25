@@ -3,6 +3,8 @@
 These are some of my work that has been shared as open source. Most recent first.
 
 - [Flexible PostgreSQL CSV inserter written in Go](https://pkg.go.dev/gitlab.com/benedictjohannes/csv2pg), with capability to insert into multiple table, use previous table's value to insert to other table, parsing date/time and using Go's templating system to modify strings before insertion. [source code](https://gitlab.com/benedictjohannes/csv2pg)
+- [LMDB KV Store in Go](https://pkg.go.dev/github.com/benedictjohannes/lmdbstore), that wraps [lmdb-go](github.com/bmatsuo/lmdb-go/lmdb) with ready-to-use defaults and convenience methods. [source code](https://github.com/benedictjohannes/lmdbstore)
+- [URL-safe Base64 encoded UUID in Go](https://pkg.go.dev/gitlab.com/benedictjohannes/b64uuid), wraps [Google's UUID package](github.com/google/uuid) with methods to marshal/unmarshal using URL-safe Base64 encoded UUID to stringify UUID into 22 characters as opposed to the standard 36. [source code](https://gitlab.com/benedictjohannes/b64uuid)
 - [Simple database migration using KnexJS](https://github.com/benedictjohannes/knex-migrate-raw-sql), is a collection of very simple funtion that enables *non*-developers to use database migration tool to track database structural changes.  
 Common database migration practice that is implemented in most SQL libraries including KnexJS necessitates writing `up` and `down` function in programming language code (Javascript for KnexJS, obviously).  
 This repo creates a wrapper that helps creating migration with `up.sql` and `down.sql` for each migration steps.
