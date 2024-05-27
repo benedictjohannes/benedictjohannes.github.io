@@ -2,6 +2,7 @@
 
 These are some of my work that has been shared as open source. Most recent first.
 
+- [Simple HTTP triggered, YAML configured task runner](https://github.com/benedictjohannes/http-task-runner)
 - [BCA PDF eStatement Excel Exporter written in Go](https://github.com/benedictjohannes/bca-pdfestatement-extractor) with [Web (wasm) version](https://bcapdfestatementtoexcel.web.app/) made with Preact
 - [LMDB KV Store in Go](https://pkg.go.dev/github.com/benedictjohannes/lmdbstore), that wraps [lmdb-go](github.com/bmatsuo/lmdb-go/lmdb) with ready-to-use defaults and convenience methods. [source code](https://github.com/benedictjohannes/lmdbstore)
 - [URL-safe Base64 encoded UUID in Go](https://pkg.go.dev/gitlab.com/benedictjohannes/b64uuid), wraps [Google's UUID package](github.com/google/uuid) with methods to marshal/unmarshal using URL-safe Base64 encoded UUID to stringify UUID into 22 characters as opposed to the standard 36. [source code](https://gitlab.com/benedictjohannes/b64uuid)
