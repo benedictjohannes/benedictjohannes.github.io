@@ -2,7 +2,10 @@
 
 These are some of my work that has been shared as open source. Most recent first.
 
-- [Simple HTTP triggered, YAML configured task runner](https://github.com/benedictjohannes/http-task-runner)
+- [`ram-sentinel`](https://github.com/benedictjohannes/ram-sentinel) - a *Surgical Memory Guardian for Linux Desktops* written in Rust [![Crates.io](https://img.shields.io/crates/v/ram-sentinel)](https://crates.io/crates/ram-sentinel) [![Build Status](https://img.shields.io/github/actions/workflow/status/benedictjohannes/ram-sentinel/releases.yml)](https://github.com/benedictjohannes/ram-sentinel/actions)
+- [pm2-recover](https://github.com/benedictjohannes/pm2-recover) to generate create command for `pm2` managed processes [![npm version](https://img.shields.io/npm/v/pm2-recover.svg)](https://www.npmjs.com/package/pm2-recover)
+- [env-config-parse](https://github.com/benedictjohannes/env-config-parse) to parse `.env` configuration and generate `.env.example` at the same time. [![npm version](https://img.shields.io/npm/v/env-config-parse.svg?style=flat-square)](https://www.npmjs.com/package/env-config-parse)
+- [`mpd-config-switcher`](https://github.com/benedictjohannes/mpd-config-switcher) that allows quick switching of `mpd` configuration using web interface written in Go and React. [![Build Status](https://img.shields.io/github/actions/workflow/status/benedictjohannes/mpd-config-switcher/release.yml)](https://github.com/benedictjohannes/mpd-config-switcher/releases)
 - [BCA PDF eStatement Excel Exporter](https://github.com/benedictjohannes/bca-pdfestatement-extractor) written in Go with [Web (wasm) frontend](https://bcapdfestatementtoexcel.web.app/) made with Preact
 - [LMDB KV Store in Go](https://pkg.go.dev/github.com/benedictjohannes/lmdbstore), that wraps [lmdb-go](github.com/bmatsuo/lmdb-go/lmdb) with ready-to-use defaults and convenience methods. [source code](https://github.com/benedictjohannes/lmdbstore)
 - [URL-safe Base64 encoded UUID in Go](https://pkg.go.dev/gitlab.com/benedictjohannes/b64uuid), wraps [Google's UUID package](github.com/google/uuid) with methods to marshal/unmarshal using URL-safe Base64 encoded UUID to stringify UUID into 22 characters as opposed to the standard 36. [source code](https://gitlab.com/benedictjohannes/b64uuid)
